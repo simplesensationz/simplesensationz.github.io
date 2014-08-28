@@ -1,6 +1,14 @@
 /* Base */
 /* ----------------------------------------------------------*/
 
+@font-face {
+  font-family: 'GenLight';
+  src: url('http://openfontlibrary.org/assets/fonts/gen-light/7c1306f99efa5a507aeb4999915800fd/1c4dbd9f398cc5d80127c59d1e05f7fa/GenLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -9,10 +17,11 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'GenLight';
+  font-weight: 100;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 300;
   background-color: #fdfdfd;
 }
 
